@@ -18,14 +18,14 @@ public class LoginPage extends JFrame
         
         p1 = new JPanel(); 
         p1.setLayout(null);
-        p1.setBackground(Color.RED);
+        p1.setBackground(Color.pink);
         p1.setBounds(0,0,900,106);
         f.add(p1);
         
-        l3 = new JLabel("HR Mangement System");
-        l3.setBounds(190,0,900,100); 
+        l3 = new JLabel("Employee Mangement System");
+        l3.setBounds(100,0,900,100); 
         l3.setFont(new Font("Segoe UI",Font.BOLD,48));
-        l3.setForeground(Color.WHITE);
+        l3.setForeground(Color.black);
         p1.add(l3);
         
         l1 = new JLabel("UserName");

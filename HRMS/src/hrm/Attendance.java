@@ -27,7 +27,7 @@ public class Attendance extends JFrame
         
         p1 = new JPanel(); 
         p1.setLayout(null);
-        p1.setBackground(Color.WHITE);
+        p1.setBackground(Color.black);
         p1.setBounds(0,0,950,50);
         f.add(p1);
         
@@ -38,10 +38,10 @@ public class Attendance extends JFrame
         p1.add(l1);
         
         ImageIcon image = new ImageIcon (getClass ().getResource ("/hrm/Pictures/Atnd.png"));
-        Image scaledImage = image.getImage ().getScaledInstance (700, 700,Image.SCALE_DEFAULT);
+        Image scaledImage = image.getImage ().getScaledInstance (800, 500,Image.SCALE_DEFAULT);
         image = new ImageIcon (scaledImage);
         JLabel imageLabel = new JLabel (image);
-        imageLabel.setBounds (3,60,730,570); 
+        imageLabel.setBounds (3,60,800,570); 
         f.add (imageLabel);
         
         ImageIcon back = new ImageIcon (getClass ().getResource ("/hrm/Pictures/back.png"));
@@ -61,14 +61,14 @@ public class Attendance extends JFrame
         });
         
         l2 = new JLabel("Department"); 
-        l2.setBounds(230,0,150,100); 
+        l2.setBounds(100,0,150,100); 
         l2.setFont(new Font("Segoe UI",Font.BOLD,16)); 
-        l2.setForeground(Color.BLACK); 
+        l2.setForeground(Color.black); 
         imageLabel.add(l2);
         
         cb1 = new JComboBox(options);
         cb1.setSelectedIndex(-1);
-        cb1.setBounds(370,40,150,30); 
+        cb1.setBounds(240,40,150,30); 
         cb1.setFont(new Font("Segoe UI", Font.PLAIN,16));
         imageLabel.add(cb1);
         cb1.addItemListener(new ItemListener()
@@ -100,13 +100,13 @@ public class Attendance extends JFrame
         });
         
         l3 = new JLabel("Employee ID"); 
-        l3.setBounds(230,80,150,100); 
+        l3.setBounds(100,80,150,100); 
         l3.setFont(new Font("Segoe UI",Font.BOLD,16)); 
-        l3.setForeground(Color.BLACK);;
+        l3.setForeground(Color.black);;
         imageLabel.add(l3);
         
         t1 = new JTextField(3); 
-        t1.setBounds(370,120,150,30); 
+        t1.setBounds(240,120,150,30); 
         t1.setFont(new Font("Segeo UI",Font.PLAIN,16));
         imageLabel.add(t1);
         t1.addKeyListener(new KeyAdapter()
@@ -207,25 +207,25 @@ public class Attendance extends JFrame
         });
         
         l4 = new JLabel("Name"); 
-        l4.setBounds(230,150,150,100); 
+        l4.setBounds(100,150,150,100); 
         l4.setFont(new Font("Segoe UI",Font.BOLD,16)); 
-        l4.setForeground(Color.BLACK);;
+        l4.setForeground(Color.black);;
         imageLabel.add(l4);
         
         t2 = new JTextField(); 
-        t2.setBounds(370,190,150,30); 
+        t2.setBounds(240,190,150,30); 
         t2.setFont(new Font("Segeo UI",Font.PLAIN,16)); 
         imageLabel.add(t2);
         t2.setEnabled(false);
         
         l5 = new JLabel("Attendance"); 
-        l5.setBounds(230,230,150,100); 
+        l5.setBounds(100,230,150,100); 
         l5.setFont(new Font("Segoe UI",Font.BOLD,16)); 
-        l5.setForeground(Color.BLACK);;
+        l5.setForeground(Color.black);;
         imageLabel.add(l5);
         
         r1 = new JRadioButton("Present"); 
-        r1.setBounds(370,270,70,40); 
+        r1.setBounds(240,270,70,40); 
         imageLabel.add(r1);
         r1.addActionListener(new ActionListener()
         {
@@ -237,7 +237,7 @@ public class Attendance extends JFrame
         });
         
         r2 = new JRadioButton("Absent"); 
-        r2.setBounds(440,270,70,40); 
+        r2.setBounds(310,270,70,40); 
         imageLabel.add(r2);
         r2.addActionListener(new ActionListener()
         { 
@@ -255,7 +255,7 @@ public class Attendance extends JFrame
         b2 = new JButton("Add");
         b2.setBackground(Color.WHITE);
         b2.setBounds(70,510,100,30); 
-        b2.setForeground(Color.BLACK);
+        b2.setForeground(Color.black);
         imageLabel.add(b2);
         b2.addActionListener(new ActionListener()
         { 

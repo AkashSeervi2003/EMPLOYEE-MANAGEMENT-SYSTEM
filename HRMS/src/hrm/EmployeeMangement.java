@@ -27,11 +27,11 @@ public class EmployeeMangement extends JFrame
         
         p1 = new JPanel(); 
         p1.setLayout(null);
-        p1.setBackground(Color.WHITE);
+        p1.setBackground(Color.BLACK);
         p1.setBounds(0,0,950,50);
         f.add(p1);
         
-        l1 = new JLabel("Employee Mangement");
+        l1 = new JLabel("Employee Information");
         l1.setBounds(250,0,300,50); 
         l1.setFont(new Font("Segoe UI",Font.BOLD,24));
         l1.setForeground(Color.RED);
@@ -47,7 +47,7 @@ public class EmployeeMangement extends JFrame
         l2 = new JLabel("Department"); 
         l2.setBounds(40,0,150,100); 
         l2.setFont(new Font("Segoe UI",Font.BOLD,16)); 
-        l2.setForeground(Color.BLACK); 
+        l2.setForeground(Color.WHITE); 
         imageLabel.add(l2);
         
         cb1 = new JComboBox(options);
@@ -86,7 +86,7 @@ public class EmployeeMangement extends JFrame
         l3 = new JLabel("Employee ID"); 
         l3.setBounds(40,80,150,100); 
         l3.setFont(new Font("Segoe UI",Font.BOLD,16)); 
-        l3.setForeground(Color.BLACK);;
+        l3.setForeground(Color.WHITE);;
         imageLabel.add(l3);
         
         t1 = new JTextField(3); 
@@ -155,7 +155,7 @@ public class EmployeeMangement extends JFrame
         l4 = new JLabel("Name"); 
         l4.setBounds(40,150,150,100); 
         l4.setFont(new Font("Segoe UI",Font.BOLD,16)); 
-        l4.setForeground(Color.BLACK);;
+        l4.setForeground(Color.WHITE);;
         imageLabel.add(l4);
         
         t2 = new JTextField(); 
@@ -175,7 +175,7 @@ public class EmployeeMangement extends JFrame
         l5 = new JLabel("Date of Birth"); 
         l5.setBounds(40,230,150,100); 
         l5.setFont(new Font("Segoe UI",Font.BOLD,16)); 
-        l5.setForeground(Color.BLACK);;
+        l5.setForeground(Color.WHITE);;
         imageLabel.add(l5);
         
         t3 = new JTextField("dd/mm/yyyy"); 
@@ -266,7 +266,7 @@ public class EmployeeMangement extends JFrame
         l6 = new JLabel("Gender"); 
         l6.setBounds(40,310,150,100); 
         l6.setFont(new Font("Segoe UI",Font.BOLD,16)); 
-        l6.setForeground(Color.BLACK);;
+        l6.setForeground(Color.WHITE);;
         imageLabel.add(l6);
         
         r1 = new JRadioButton("Male"); 
@@ -300,7 +300,7 @@ public class EmployeeMangement extends JFrame
         l7 = new JLabel("Address"); 
         l7.setBounds(40,390,150,100); 
         l7.setFont(new Font("Segoe UI",Font.BOLD,16)); 
-        l7.setForeground(Color.BLACK);;
+        l7.setForeground(Color.WHITE);;
         imageLabel.add(l7);
         
         t4 = new JTextField(); 
@@ -320,7 +320,7 @@ public class EmployeeMangement extends JFrame
         l8 = new JLabel("Phone No."); 
         l8.setBounds(430,0,150,100); 
         l8.setFont(new Font("Segoe UI",Font.BOLD,16)); 
-        l8.setForeground(Color.BLACK);;
+        l8.setForeground(Color.WHITE);;
         imageLabel.add(l8);
         
         t5 = new JTextField(); 
@@ -353,7 +353,7 @@ public class EmployeeMangement extends JFrame
         l9 = new JLabel("Email ID"); 
         l9.setBounds(430,80,150,100); 
         l9.setFont(new Font("Segoe UI",Font.BOLD,16)); 
-        l9.setForeground(Color.BLACK);;
+        l9.setForeground(Color.WHITE);;
         imageLabel.add(l9);
         
         t6 = new JTextField();
@@ -376,7 +376,7 @@ public class EmployeeMangement extends JFrame
         l10 = new JLabel("Position"); 
         l10.setBounds(430,150,150,100); 
         l10.setFont(new Font("Segoe UI",Font.BOLD,16)); 
-        l10.setForeground(Color.BLACK);
+        l10.setForeground(Color.WHITE);
         imageLabel.add(l10);
         
         t7 = new JTextField(); 
@@ -396,7 +396,7 @@ public class EmployeeMangement extends JFrame
         b1 = new JButton("Add");
         b1.setBackground(Color.WHITE);
         b1.setBounds(70,510,100,30); 
-        b1.setForeground(Color.BLACK);
+        b1.setForeground(Color.WHITE);
         imageLabel.add(b1);
         b1.addActionListener(new ActionListener()
         { 
@@ -452,7 +452,7 @@ public class EmployeeMangement extends JFrame
         b2 = new JButton("Clear");
         b2.setBackground(Color.WHITE);
         b2.setBounds(390,510,100,30); 
-        b2.setForeground(Color.BLACK);
+        b2.setForeground(Color.WHITE);
         imageLabel.add(b2);
         b2.addActionListener(new ActionListener()
         { 
@@ -465,7 +465,7 @@ public class EmployeeMangement extends JFrame
         b3 = new JButton("View");
         b3.setBackground(Color.WHITE);
         b3.setBounds(550,510,100,30); 
-        b3.setForeground(Color.BLACK);
+        b3.setForeground(Color.WHITE);
         imageLabel.add(b3);
         b3.addActionListener(new ActionListener()
         { 
@@ -488,7 +488,7 @@ public class EmployeeMangement extends JFrame
         b4 = new JButton("Update");
         b4.setBackground(Color.WHITE);
         b4.setBounds(230,510,100,30); 
-        b4.setForeground(Color.BLACK);
+        b4.setForeground(Color.WHITE);
         imageLabel.add(b4);
         b4.setEnabled(false);
         b4.addActionListener(new ActionListener()
@@ -580,7 +580,7 @@ public class EmployeeMangement extends JFrame
         l11 = new JLabel("Experience"); 
         l11.setBounds(430,230,150,100); 
         l11.setFont(new Font("Segoe UI",Font.BOLD,16)); 
-        l11.setForeground(Color.BLACK);;
+        l11.setForeground(Color.WHITE);;
         imageLabel.add(l11);
         
         t8 = new JTextField(); 
@@ -600,7 +600,7 @@ public class EmployeeMangement extends JFrame
         l12 = new JLabel("Qualification"); 
         l12.setBounds(430,310,150,100); 
         l12.setFont(new Font("Segoe UI",Font.BOLD,16)); 
-        l12.setForeground(Color.BLACK);;
+        l12.setForeground(Color.WHITE);;
         imageLabel.add(l12);
         
         t9 = new JTextField(); 
